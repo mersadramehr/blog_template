@@ -1,0 +1,64 @@
+<style>    
+    form {
+    width: 400px;
+    height: 520px;
+    left: 27%;
+    position: absolute;
+    border: 1px solid rgb(49, 59, 255);
+    border-radius: 10px;
+
+}
+form h3{
+    text-align: center;
+    font-weight: 500;
+    line-height: 45px;
+}
+form hr{
+    width: 50px;
+}
+form label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+form input{
+    margin-left: 10px;
+    width: 90%;
+}
+form button{
+    margin-top: 30px;
+    margin-left: 10PX;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    width: 95%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+</style>
+
+<div>
+    <form action="file:///D:/data/New%20folder/taha/photo/1396/MARAL/MERSAD/site/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%AD%D9%84%20%D8%B1%D9%88%D8%A8%DB%8C%DA%A9%20%D8%B3%D9%87%20%D8%AF%D8%B1%20%D8%B3%D9%87%20%D8%A8%D9%87%20%D8%B1%D9%88%D8%B4%20%D8%B3%D8%A7%D8%AF%D9%87%20%D9%88%20%D8%B9%D9%85%D9%84%DB%8C%20%D8%A8%D8%A7%20%D8%B9%DA%A9%D8%B3.html" method="get" target="_blank">
+    <h3>register form</h3>
+    <hr>
+
+    <label for="name">name</label>
+    <input type="text" placeholder="name" id="name" name="name">
+
+    <label for="email">email</label>
+    <input type="email" placeholder="email" id="email" name="email">
+
+    <label for="password">password</label>
+    <input type="password" placeholder="password" id="password" name="password">
+
+    <button type="submit">save</button>
+
+
+    </form>
+</div>
+</body>
+
+<!--  -->
+</html>
